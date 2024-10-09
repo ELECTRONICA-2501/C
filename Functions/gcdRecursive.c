@@ -3,6 +3,19 @@
 
 #include <stdio.h>
 
+//iterative approach
+/*
+int gcdIt(int x, int y){
+
+    while(y != 0){
+        int temp = y;
+        y = x %y;
+        x = temp;
+    }
+    return x; 
+}
+*/
+
 int gcd(int x, int y){
 
     if( y == 0){
